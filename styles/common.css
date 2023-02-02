@@ -1,0 +1,121 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #202125;
+}
+
+.body-content a {
+  text-decoration: none;
+  color: inherit;
+}
+.body-content {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  height: 100%;
+  width: 100%;
+}
+
+.body-content > .page-content .button-wrapper {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  /* border: 1px solid white; */
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 15%;
+  margin-top: 15px;
+}
+
+.body-content > .page-content .button-wrapper button {
+  border: none;
+  border-radius: 4px;
+  background-color: #303134;
+  min-width: 54px;
+  height: 36px;
+  color: white;
+  padding: 0 15px;
+  /* margin: 5px; */
+}
+.search-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.body-content > .page-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.links-wrapper a {
+  padding: 10px 10px;
+}
+
+.links-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.search-form-wrapper {
+  width: 100%;
+}
+.search-form-wrapper > .logo-wrapper {
+  font-family: "Google Sans", "sans-serif";
+  font-size: 6rem;
+  margin-bottom: 15px;
+}
+
+.search-form-wrapper > .sub-text-wrapper {
+  margin-top: 15px;
+  color: #b7bbbf;
+  font-size: 0.85rem;
+}
+.search-form-wrapper > .sub-text-wrapper a {
+  color: #8ab4f8;
+  font-size: 0.85rem;
+}
+
+.search-form-wrapper > .search-bar-wrapper {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  position: relative;
+  left: 30px;
+}
+.search-form-wrapper > .search-bar-wrapper input {
+  width: 100%;
+  border-radius: 30px;
+  height: 40px;
+  background-color: inherit;
+  border: solid 1px #5f6368;
+  position: static;
+  /* justify-self: center; */
+}
+
+.search-form-wrapper > .search-bar-wrapper .search-icons-wrapper i {
+  padding: 0 10px;
+  /* margin: 0; */
+}
+
+.search-form-wrapper > .search-bar-wrapper .search-icons-wrapper {
+  position: relative;
+  right: 75px;
+  display: flex;
+}
+.search-form-wrapper > .search-bar-wrapper .search-icon {
+  color: #5f6368;
+  position: relative;
+  left: 35px;
+  /* margin: 0; */
+}
