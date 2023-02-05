@@ -9,3 +9,22 @@
 .navbar > .account-links-wrapper {
   align-items: center;
 }
+
+.navbar > .account-links-wrapper .svg-wrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.navbar > .account-links-wrapper .svg-wrapper:hover {
+  background-color: #5f6368;
+}
+.navbar > .account-links-wrapper .profile-icon-wrapper {
+  font-size: 40px;
+  color: #8ab4f8;
+}
+.navbar > .account-links-wrapper .profile-icon-wrapper:hover {
+  color: lightblue;
+}
